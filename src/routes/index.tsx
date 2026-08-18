@@ -188,18 +188,6 @@ function Index() {
         {/* MUITO PRAZER */}
         <section className="bg-card py-20 md:py-28">
           <div className="mx-auto grid max-w-[84rem] items-center gap-14 px-6 md:px-10 lg:grid-cols-[0.85fr_1.15fr] lg:gap-20">
-            <Reveal as="figure" className="relative">
-              <img
-                src={handsPhoto}
-                width={1008}
-                height={1200}
-                loading="lazy"
-                alt="Mãos repousando sobre tecido de linho, sugerindo cuidado e reflexão"
-                className="aspect-[4/5] w-full object-cover"
-              />
-              <figcaption className="eyebrow mt-4">No seu ritmo</figcaption>
-            </Reveal>
-
             <div>
               <Reveal>
                 <span className="hairline-accent" />
@@ -269,11 +257,8 @@ function Index() {
             <Reveal className="max-w-2xl">
               <p className="eyebrow">Com o que podemos trabalhar</p>
               <h2 className="mt-6 text-[2rem] sm:text-4xl">
-                Um espaço para olhar para você por inteiro.
-              </h2>
-              <p className="mt-6 text-[0.975rem] text-muted-foreground">
                 Nos encontros, trabalharemos os temas relacionados a:
-              </p>
+              </h2>
             </Reveal>
 
             <ul className="mt-14 grid gap-x-12 gap-y-10 sm:grid-cols-2">
@@ -357,9 +342,6 @@ function Index() {
               <h2 className="mt-6 text-[2rem] sm:text-4xl">
                 Seu primeiro passo pode ser mais simples do que parece.
               </h2>
-              <p className="mt-6 text-[0.975rem] text-muted-foreground">
-                O caminho para o seu acompanhamento psicológico é simples.
-              </p>
             </Reveal>
 
             <ol className="relative mt-16 grid gap-12 md:grid-cols-3 md:gap-10">

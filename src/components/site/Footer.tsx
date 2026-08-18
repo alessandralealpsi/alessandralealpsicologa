@@ -1,4 +1,4 @@
-import { ADDRESS, CRP, INSTAGRAM_URL, NAV_LINKS, whatsappHref } from "@/lib/site-config";
+import { ADDRESS, CRP, EMAIL, INSTAGRAM_URL, NAV_LINKS, whatsappHref } from "@/lib/site-config";
 
 export function Footer() {
   return (
@@ -55,7 +55,26 @@ export function Footer() {
                 </a>
               </li>
             )}
-            <li className="text-sm text-muted-foreground">Atendimento online e/ou presencial</li>
+            {INSTAGRAM_URL && (
+              <li>
+                <a
+                  href={INSTAGRAM_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-muted-foreground underline-offset-4 transition-colors hover:text-foreground hover:underline"
+                >
+                  Instagram
+                </a>
+              </li>
+            )}
+            <li>
+              <a
+                href={`mailto:${EMAIL}`}
+                className="text-sm text-muted-foreground underline-offset-4 transition-colors hover:text-foreground hover:underline"
+              >
+                {EMAIL}
+              </a>
+            </li>
             {ADDRESS && <li className="text-sm text-muted-foreground">{ADDRESS}</li>}
           </ul>
         </div>
