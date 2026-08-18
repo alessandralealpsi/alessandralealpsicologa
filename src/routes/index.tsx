@@ -430,7 +430,7 @@ function Index() {
                   href={whatsappHref()}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex w-full items-center justify-center bg-primary px-12 py-5 text-xs font-medium tracking-[0.14em] uppercase text-primary-foreground transition-colors duration-300 hover:bg-primary-dark lg:w-auto"
+                  className="inline-flex w-full items-center justify-center rounded-full bg-primary px-12 py-5 text-xs font-medium tracking-[0.14em] uppercase text-primary-foreground transition-colors duration-300 hover:bg-primary-dark lg:w-auto"
                 >
                   Falar pelo WhatsApp
                 </a>
