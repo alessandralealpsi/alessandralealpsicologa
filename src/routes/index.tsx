@@ -209,7 +209,7 @@ function Index() {
               </Reveal>
               <Reveal delay={120}>
                 <p className="mt-8 max-w-xl text-[0.975rem] text-muted-foreground">
-                  Sou Alessandra Leal, psicóloga e pós-graduanda em Psicoterapia da Sexualidade.
+                  Psicóloga e pós-graduanda em Psicoterapia da Sexualidade.
                 </p>
                 <p className="mt-5 max-w-xl text-[0.975rem] text-muted-foreground">
                   Meu objetivo profissional é oferecer um acompanhamento psicológico focado em
