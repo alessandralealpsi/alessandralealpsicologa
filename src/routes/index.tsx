@@ -383,8 +383,8 @@ function Index() {
           </div>
         </section>
 
-        {/* CTA */}
-        <section className="bg-primary py-24 md:py-32">
+        {/* CTA / CONTATO */}
+        <section id="contato" className="bg-primary py-24 md:py-32">
           <div className="mx-auto max-w-3xl px-6 text-center md:px-10">
             <Reveal>
               <span className="mx-auto block h-px w-10 bg-primary-foreground/50" aria-hidden="true" />
@@ -404,35 +404,6 @@ function Index() {
                 Quero conversar
               </a>
             </Reveal>
-          </div>
-        </section>
-
-        {/* CONTATO */}
-        <section id="contato" className="bg-card py-20 md:py-28">
-          <div className="mx-auto max-w-[84rem] px-6 md:px-10">
-            <div className="grid items-center gap-12 lg:grid-cols-[1fr_auto]">
-              <Reveal>
-                <span className="hairline-accent" />
-                <h2 className="mt-7 text-[2.1rem] sm:text-4xl">Vamos conversar?</h2>
-                <p className="mt-6 max-w-xl text-[0.975rem] text-muted-foreground">
-                  Se você ficou com alguma dúvida sobre o processo ou gostaria de verificar a
-                  disponibilidade de horários, entre em contato comigo.
-                </p>
-                <p className="eyebrow mt-8">Atendimento online e/ou presencial</p>
-                {/* Estrutura preparada para endereço profissional (ver src/lib/site-config.ts). */}
-              </Reveal>
-
-              <Reveal delay={140}>
-                <a
-                  href={whatsappHref()}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex w-full items-center justify-center rounded-full bg-primary px-12 py-5 text-xs font-medium tracking-[0.14em] uppercase text-primary-foreground transition-colors duration-300 hover:bg-primary-dark lg:w-auto"
-                >
-                  Falar pelo WhatsApp
-                </a>
-              </Reveal>
-            </div>
           </div>
         </section>
       </main>
