@@ -1,0 +1,33 @@
+/**
+ * Configurações do site — Alessandra Leal | Psicóloga
+ *
+ * Substitua os placeholders abaixo quando as informações definitivas
+ * forem fornecidas. Nada aqui deve ser inventado.
+ */
+
+/** Número do WhatsApp no formato internacional, apenas dígitos. Ex.: "5511999999999" */
+export const WHATSAPP_NUMBER = "INSERIR_NUMERO";
+
+/** Mensagem pré-preenchida ao abrir a conversa. */
+export const WHATSAPP_MESSAGE =
+  "Olá, Alessandra. Vim pelo seu site e gostaria de saber mais sobre os atendimentos.";
+
+/** Registro profissional — permanece placeholder até o registro definitivo. */
+export const CRP = "CRP 06/XXXXXX";
+
+/** Instagram — inserir a URL quando disponível (deixar null oculta o link). */
+export const INSTAGRAM_URL: string | null = null;
+
+/** Endereço profissional — inserir quando existir (deixar null oculta a informação). */
+export const ADDRESS: string | null = null;
+
+export const whatsappHref = () =>
+  `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
+
+export const NAV_LINKS = [
+  { label: "Início", href: "#inicio" },
+  { label: "Sobre mim", href: "#sobre-mim" },
+  { label: "Psicoterapia", href: "#psicoterapia" },
+  { label: "Como funciona", href: "#como-funciona" },
+  { label: "Contato", href: "#contato" },
+];
