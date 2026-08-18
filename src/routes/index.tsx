@@ -158,13 +158,13 @@ function Index() {
                     href={whatsappHref()}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center justify-center bg-primary px-8 py-4 text-xs font-medium tracking-[0.14em] uppercase text-primary-foreground transition-colors duration-300 hover:bg-primary-dark"
+                    className="inline-flex items-center justify-center rounded-full bg-primary px-8 py-4 text-xs font-medium tracking-[0.14em] uppercase text-primary-foreground transition-colors duration-300 hover:bg-primary-dark"
                   >
                     Agendar atendimento
                   </a>
                   <a
                     href="#sobre-mim"
-                    className="inline-flex items-center justify-center border border-primary/40 px-8 py-4 text-xs font-medium tracking-[0.14em] uppercase text-primary-dark transition-colors duration-300 hover:border-accent hover:text-accent"
+                    className="inline-flex items-center justify-center rounded-full border border-primary/40 px-8 py-4 text-xs font-medium tracking-[0.14em] uppercase text-primary-dark transition-colors duration-300 hover:border-accent hover:text-accent"
                   >
                     Conheça meu trabalho
                   </a>
