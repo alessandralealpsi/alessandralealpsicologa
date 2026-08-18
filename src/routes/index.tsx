@@ -8,8 +8,6 @@ import { Reveal } from "@/components/site/Reveal";
 import { whatsappHref } from "@/lib/site-config";
 
 import heroPhoto from "@/assets/alessandra-hero.jpg";
-import roomPhoto from "@/assets/espaco-acolhimento.jpg";
-import handsPhoto from "@/assets/maos-cuidado.jpg";
 
 const TITLE = "Alessandra Leal | Psicóloga | Psicoterapia e Bem-Estar Sexual Feminino";
 const DESCRIPTION =
