@@ -131,14 +131,11 @@ function Index() {
           <div className="mx-auto grid max-w-[84rem] items-center gap-14 px-6 md:px-10 lg:grid-cols-[1.05fr_0.95fr] lg:gap-20">
             <div className="relative z-10">
               <Reveal>
-                <p className="eyebrow max-w-sm leading-relaxed">
-                  Psicoterapia voltada para o bem-estar sexual feminino
-                </p>
-                <span className="hairline-accent mt-6" />
+                <span className="hairline-accent" />
               </Reveal>
 
               <Reveal delay={120}>
-                <h1 className="mt-8 max-w-2xl text-[2.35rem] leading-[1.1] sm:text-5xl lg:text-[3.85rem]">
+                <h1 className="mt-7 max-w-2xl text-[2.35rem] leading-[1.1] sm:text-5xl lg:text-[3.85rem]">
                   Um espaço para compreender você, seu corpo e sua sexualidade com mais liberdade e
                   acolhimento.
                 </h1>
