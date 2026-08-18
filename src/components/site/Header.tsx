@@ -44,7 +44,7 @@ export function Header() {
             href={whatsappHref()}
             target="_blank"
             rel="noopener noreferrer"
-            className="hidden bg-primary px-6 py-3 text-xs font-medium tracking-[0.14em] uppercase text-primary-foreground transition-colors duration-300 hover:bg-primary-dark md:inline-flex"
+            className="hidden rounded-full bg-primary px-6 py-3 text-xs font-medium tracking-[0.14em] uppercase text-primary-foreground transition-colors duration-300 hover:bg-primary-dark md:inline-flex"
           >
             Agendar atendimento
           </a>
@@ -83,7 +83,7 @@ export function Header() {
             href={whatsappHref()}
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-6 flex w-full items-center justify-center bg-primary px-6 py-4 text-xs font-medium tracking-[0.14em] uppercase text-primary-foreground"
+            className="mt-6 flex w-full items-center justify-center rounded-full bg-primary px-6 py-4 text-xs font-medium tracking-[0.14em] uppercase text-primary-foreground"
           >
             Agendar atendimento
           </a>
