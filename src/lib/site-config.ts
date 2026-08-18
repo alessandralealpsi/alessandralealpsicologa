@@ -6,7 +6,7 @@
  */
 
 /** Número do WhatsApp no formato internacional, apenas dígitos. Ex.: "5511999999999" */
-export const WHATSAPP_NUMBER = "INSERIR_NUMERO";
+export const WHATSAPP_NUMBER = "5511986139436";
 
 /** Mensagem pré-preenchida ao abrir a conversa. */
 export const WHATSAPP_MESSAGE =
@@ -16,7 +16,10 @@ export const WHATSAPP_MESSAGE =
 export const CRP = "CRP 06/XXXXXX";
 
 /** Instagram — inserir a URL quando disponível (deixar null oculta o link). */
-export const INSTAGRAM_URL: string | null = null;
+export const INSTAGRAM_URL = "https://instagram.com/alessandra.lealg";
+
+/** Email profissional para contato. */
+export const EMAIL = "alessandraleal.psi@gmail.com";
 
 /** Endereço profissional — inserir quando existir (deixar null oculta a informação). */
 export const ADDRESS: string | null = null;
