@@ -402,7 +402,7 @@ function Index() {
                 href={whatsappHref()}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-11 inline-flex items-center justify-center bg-card px-9 py-4 text-xs font-medium tracking-[0.14em] uppercase text-primary-dark transition-colors duration-300 hover:text-accent"
+                className="mt-11 inline-flex items-center justify-center rounded-full bg-card px-9 py-4 text-xs font-medium tracking-[0.14em] uppercase text-primary-dark transition-colors duration-300 hover:text-accent"
               >
                 Quero conversar
               </a>
