@@ -126,7 +126,7 @@ function Index() {
         <section id="inicio" className="relative overflow-hidden pt-32 pb-20 md:pt-44 md:pb-28">
           <div
             aria-hidden="true"
-            className="pointer-events-none absolute -right-24 top-10 hidden size-[30rem] rounded-full bg-primary/10 blur-[2px] lg:block"
+            className="pointer-events-none absolute -right-32 top-24 hidden size-[26rem] rounded-full bg-primary/[0.07] lg:block"
           />
           <div className="mx-auto grid max-w-[84rem] items-center gap-14 px-6 md:px-10 lg:grid-cols-[1.05fr_0.95fr] lg:gap-20">
             <div className="relative z-10">
