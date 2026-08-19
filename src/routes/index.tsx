@@ -284,14 +284,6 @@ function Index() {
                 O acompanhamento psicológico voltado para a saúde sexual e o bem-estar feminino é um
                 processo contínuo, seguro e confidencial.
               </p>
-              <img
-                src={roomPhoto}
-                width={1200}
-                height={912}
-                loading="lazy"
-                alt="Poltrona clara junto à janela, com livros e uma caneca sobre mesa lateral de madeira"
-                className="mt-12 hidden aspect-[4/3] w-full object-cover lg:block"
-              />
             </Reveal>
 
             <Reveal delay={140}>
