@@ -55,18 +55,6 @@ export function Footer() {
                 </a>
               </li>
             )}
-            {INSTAGRAM_URL && (
-              <li>
-                <a
-                  href={INSTAGRAM_URL}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-sm text-muted-foreground underline-offset-4 transition-colors hover:text-foreground hover:underline"
-                >
-                  Instagram
-                </a>
-              </li>
-            )}
             <li>
               <a
                 href={`mailto:${EMAIL}`}
