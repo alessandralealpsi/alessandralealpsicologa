@@ -184,68 +184,81 @@ function Index() {
           </div>
         </section>
 
-        {/* MUITO PRAZER */}
-        <section className="bg-card py-20 md:py-28">
-          <div className="mx-auto grid max-w-[84rem] items-center gap-14 px-6 md:px-10 lg:grid-cols-[0.85fr_1.15fr] lg:gap-20">
-            <div>
-              <Reveal>
-                <span className="hairline-accent" />
-                <h2 className="mt-7 max-w-xl text-[2.1rem] sm:text-4xl lg:text-[2.9rem]">
-                  Muito prazer, sou Alessandra.
-                </h2>
-              </Reveal>
-              <Reveal delay={120}>
-                <p className="mt-8 max-w-xl text-[0.975rem] text-muted-foreground">
-                  Psicóloga e pós-graduanda em Psicoterapia da Sexualidade.
-                </p>
-                <p className="mt-5 max-w-xl text-[0.975rem] text-muted-foreground">
-                  Meu objetivo profissional é oferecer um acompanhamento psicológico focado em
-                  auxiliar mulheres a compreenderem suas emoções, superarem bloqueios e construírem
-                  uma relação mais leve, saudável e autônoma com a própria sexualidade e com o seu
-                  bem-estar integral.
-                </p>
-              </Reveal>
-              <Reveal delay={200}>
-                <blockquote className="mt-10 max-w-lg border-l border-accent pl-6 font-display text-2xl leading-snug text-primary-dark sm:text-[1.7rem]">
-                  Um espaço de escuta, acolhimento e reflexão — sem julgamentos.
-                </blockquote>
-              </Reveal>
-            </div>
-          </div>
-        </section>
-
-        {/* SOBRE MIM */}
+        {/* SOBRE MIM — seção unificada */}
         <section id="sobre-mim" className="py-20 md:py-28">
           <div className="mx-auto max-w-[84rem] px-6 md:px-10">
-            <div className="grid gap-14 lg:grid-cols-[0.4fr_0.6fr] lg:gap-20">
-              <Reveal>
-                <p className="eyebrow">Sobre mim</p>
-                <h2 className="mt-6 max-w-md text-[2rem] sm:text-4xl">
-                  Antes de falar sobre teorias, quero me apresentar como pessoa.
-                </h2>
-                <span className="hairline-accent mt-8" />
+            <div className="grid items-center gap-14 lg:grid-cols-[0.9fr_1.1fr] lg:gap-20">
+              {/* Coluna esquerda — fotografia */}
+              <Reveal className="relative order-1">
+                <div
+                  aria-hidden="true"
+                  className="absolute -left-6 -top-6 hidden h-[58%] w-[58%] rounded-tl-[12rem] border border-accent/40 sm:block"
+                />
+                <img
+                  src={heroPhoto}
+                  alt="Alessandra Leal, psicóloga, em ambiente acolhedor"
+                  className="relative aspect-[4/5] w-full rounded-t-[8rem] object-cover"
+                />
               </Reveal>
 
-              <Reveal delay={140} className="max-w-2xl space-y-6 text-[0.975rem] text-muted-foreground">
-                <p>
-                  Antes de falar sobre teorias, relacionamentos ou saúde mental, quero me apresentar
-                  como pessoa. Sou uma apaixonada por escutar histórias, pela reflexão contínua e
-                  pela forma como as conexões humanas transformam a nossa vida. Sempre fui movida
-                  pela curiosidade de entender como nos relacionamos — com os outros, com o nosso
-                  corpo e com os nossos próprios desejos. Acredito que a empatia, o respeito e o
-                  diálogo sem julgamentos são as ferramentas mais potentes para construir pontes e
-                  transformar realidades.
-                </p>
-                <p>
-                  Sou graduada em Psicologia e atualmente estou me especializando através da
-                  pós-graduação em Psicoterapia da Sexualidade.
-                </p>
-                <p>
-                  Escolhi trilhar esse caminho por acreditar que o bem-estar, a saúde mental e o
-                  prazer caminham juntos. Meu objetivo é desmistificar tabus sobre relações, corpo e
-                  sexualidade.
-                </p>
-              </Reveal>
+              {/* Coluna direita — apresentação */}
+              <div className="order-2">
+                <Reveal>
+                  <span className="hairline-accent" />
+                  <p className="eyebrow mt-7">Sobre mim</p>
+                  <h2 className="mt-3 max-w-xl text-[2.1rem] sm:text-4xl lg:text-[2.9rem]">
+                    Muito prazer, sou Alessandra.
+                  </h2>
+                </Reveal>
+
+                <Reveal
+                  delay={120}
+                  className="mt-8 max-w-xl space-y-5 text-[0.975rem] text-muted-foreground"
+                >
+                  <p>
+                    Sou uma apaixonada por escutar histórias, pela reflexão contínua e pela forma
+                    como as conexões humanas transformam a nossa vida. Sempre fui movida pela
+                    curiosidade de entender como nos relacionamos — com os outros, com o nosso corpo
+                    e com os nossos próprios desejos.
+                  </p>
+                  <p>
+                    Acredito que a empatia, o respeito e o diálogo sem julgamentos são as
+                    ferramentas mais potentes para construir pontes e transformar realidades.
+                  </p>
+                  <p>
+                    Sou graduada em Psicologia e atualmente estou me especializando através da
+                    pós-graduação em Psicoterapia da Sexualidade.
+                  </p>
+                  <p>
+                    Escolhi trilhar esse caminho por acreditar que o bem-estar, a saúde mental e o
+                    prazer caminham juntos. Meu objetivo é desmistificar tabus sobre relações, corpo
+                    e sexualidade.
+                  </p>
+                </Reveal>
+
+                {/* Destaque — síntese da proposta */}
+                <Reveal delay={200} className="mt-10 max-w-xl">
+                  <div className="relative pl-6">
+                    <span
+                      aria-hidden="true"
+                      className="absolute left-0 top-1 h-[calc(100%-0.5rem)] w-px bg-accent/60"
+                    />
+                    <p className="font-display text-2xl leading-snug text-primary-dark sm:text-[1.7rem]">
+                      Um espaço de escuta, acolhimento e reflexão — sem julgamentos.
+                    </p>
+                  </div>
+                </Reveal>
+
+                {/* Conclusão — objetivo profissional */}
+                <Reveal delay={260} className="mt-10 max-w-xl">
+                  <p className="text-[0.975rem] text-muted-foreground">
+                    Meu objetivo profissional é oferecer um acompanhamento psicológico focado em
+                    auxiliar mulheres a compreenderem suas emoções, superarem bloqueios e
+                    construírem uma relação mais leve, saudável e autônoma com a própria
+                    sexualidade e com o seu bem-estar integral.
+                  </p>
+                </Reveal>
+              </div>
             </div>
           </div>
         </section>
