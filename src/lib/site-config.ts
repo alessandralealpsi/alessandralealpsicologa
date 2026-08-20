@@ -12,8 +12,8 @@ export const WHATSAPP_NUMBER = "5511986139436";
 export const WHATSAPP_MESSAGE =
   "Olá, Alessandra. Vim pelo seu site e gostaria de saber mais sobre os atendimentos.";
 
-/** Registro profissional — permanece placeholder até o registro definitivo. */
-export const CRP = "CRP 06/XXXXXX";
+/** Registro profissional — Conselho Regional de Psicologia. */
+export const CRP = "CRP 06/237503";
 
 /** Instagram — inserir a URL quando disponível (deixar null oculta o link). */
 export const INSTAGRAM_URL = "https://instagram.com/alessandra.lealg";
