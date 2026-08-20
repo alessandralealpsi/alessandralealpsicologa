@@ -92,8 +92,8 @@ const FUNCIONAMENTO = [
   {
     icon: Monitor,
     label: "Formato",
-    value: "Online e/ou presencial",
-    text: "Atendimentos em formato online e/ou presencial, em ambiente reservado, ético e em conformidade com as diretrizes do Conselho Federal de Psicologia (CFP).",
+    value: "Online",
+    text: "Atendimentos em formato online, em ambiente reservado, ético e em conformidade com as diretrizes do Conselho Federal de Psicologia (CFP).",
   },
 ];
 
@@ -108,7 +108,7 @@ const ETAPAS = [
     n: "02",
     label: "Primeira sessão",
     sub: "Nosso primeiro encontro",
-    text: "Agendamos o nosso primeiro encontro (online ou presencial). Nessa sessão inicial, teremos um espaço de escuta para entender suas demandas, alinhar expectativas e estabelecer o contrato terapêutico.",
+    text: "Agendamos o nosso primeiro encontro online. Nessa sessão inicial, teremos um espaço de escuta para entender suas demandas, alinhar expectativas e estabelecer o contrato terapêutico.",
   },
   {
     n: "03",
@@ -220,10 +220,10 @@ function Index() {
                   className="mt-8 max-w-xl space-y-5 text-[0.975rem] text-muted-foreground"
                 >
                   <p>
-                    Sou uma apaixonada por escutar histórias, pela reflexão contínua e pela forma
-                    como as conexões humanas transformam a nossa vida. Sempre fui movida pela
-                    curiosidade de entender como nos relacionamos — com os outros, com o nosso corpo
-                    e com os nossos próprios desejos.
+                    Sou apaixonada por escutar histórias, pela reflexão contínua e pela forma como
+                    as conexões humanas transformam a nossa vida. Sempre fui movida pela curiosidade
+                    de entender como nos relacionamos com nós mesmas, com o nosso corpo e com os
+                    nossos próprios desejos.
                   </p>
                   <p>
                     Acredito que a empatia, o respeito e o diálogo sem julgamentos são as
@@ -248,7 +248,7 @@ function Index() {
                       className="absolute left-0 top-1 h-[calc(100%-0.5rem)] w-px bg-accent/60"
                     />
                     <p className="font-display text-2xl leading-snug text-primary-dark sm:text-[1.7rem]">
-                      Um espaço de escuta, acolhimento e reflexão — sem julgamentos.
+                      Um espaço de escuta, acolhimento e reflexão.
                     </p>
                   </div>
                 </Reveal>
