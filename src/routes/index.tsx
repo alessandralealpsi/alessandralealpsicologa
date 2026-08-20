@@ -7,7 +7,11 @@ import { WhatsAppFloat } from "@/components/site/WhatsAppFloat";
 import { Reveal } from "@/components/site/Reveal";
 import { whatsappHref } from "@/lib/site-config";
 
-import heroPhoto from "@/assets/alessandra-hero.jpg";
+import heroAsset from "@/assets/alessandra-hero.jpg.asset.json";
+import sobreAsset from "@/assets/alessandra-sobre.jpg.asset.json";
+
+const heroPhoto = heroAsset.url;
+const sobrePhoto = sobreAsset.url;
 
 
 const TITLE = "Alessandra Leal | Psicóloga | Psicoterapia e Bem-Estar Sexual Feminino";
@@ -195,7 +199,7 @@ function Index() {
                   className="absolute -left-6 -top-6 hidden h-[58%] w-[58%] rounded-tl-[12rem] border border-accent/40 sm:block"
                 />
                 <img
-                  src={heroPhoto}
+                  src={sobrePhoto}
                   alt="Alessandra Leal, psicóloga, em ambiente acolhedor"
                   className="relative aspect-[4/5] w-full rounded-t-[8rem] object-cover"
                 />
