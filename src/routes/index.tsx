@@ -249,15 +249,6 @@ function Index() {
                   </div>
                 </Reveal>
 
-                {/* Conclusão — objetivo profissional */}
-                <Reveal delay={260} className="mt-10 max-w-xl">
-                  <p className="text-[0.975rem] text-muted-foreground">
-                    Meu objetivo profissional é oferecer um acompanhamento psicológico focado em
-                    auxiliar mulheres a compreenderem suas emoções, superarem bloqueios e
-                    construírem uma relação mais leve, saudável e autônoma com a própria
-                    sexualidade e com o seu bem-estar integral.
-                  </p>
-                </Reveal>
               </div>
             </div>
           </div>
