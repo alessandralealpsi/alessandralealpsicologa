@@ -8,7 +8,7 @@ import { Reveal } from "@/components/site/Reveal";
 import { whatsappHref } from "@/lib/site-config";
 
 import heroAsset from "@/assets/alessandra-hero.jpg.asset.json";
-import sobreAsset from "@/assets/alessandra-sobre.jpg.asset.json";
+
 
 const sobrePhoto = heroAsset.url;
 
