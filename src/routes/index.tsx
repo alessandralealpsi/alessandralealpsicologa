@@ -134,10 +134,6 @@ function Index() {
           />
           <div
             aria-hidden="true"
-            className="pointer-events-none absolute right-4 top-24 hidden h-[20rem] w-[20rem] rounded-tl-[16rem] border border-accent/35 lg:block"
-          />
-          <div
-            aria-hidden="true"
             className="pointer-events-none absolute -left-24 bottom-0 hidden size-[16rem] rounded-full bg-accent/[0.06] md:block"
           />
 
