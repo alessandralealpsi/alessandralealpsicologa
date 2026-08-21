@@ -126,64 +126,62 @@ function Index() {
 
       <main>
         {/* HERO */}
-        <section id="inicio" className="relative overflow-hidden pt-32 pb-24 md:pt-48 md:pb-36">
+        <section id="inicio" className="relative overflow-hidden pt-28 pb-16 md:pt-40 md:pb-24">
           {/* Elementos gráficos decorativos */}
           <div
             aria-hidden="true"
-            className="pointer-events-none absolute -right-40 -top-16 size-[30rem] rounded-full bg-primary/[0.07] md:size-[42rem]"
+            className="pointer-events-none absolute -right-40 -top-16 size-[28rem] rounded-full bg-primary/[0.07] md:size-[40rem]"
           />
           <div
             aria-hidden="true"
-            className="pointer-events-none absolute right-6 top-28 hidden h-[22rem] w-[22rem] rounded-tl-[16rem] border border-accent/35 lg:block"
+            className="pointer-events-none absolute right-4 top-24 hidden h-[20rem] w-[20rem] rounded-tl-[16rem] border border-accent/35 lg:block"
           />
           <div
             aria-hidden="true"
-            className="pointer-events-none absolute -left-24 bottom-0 hidden size-[18rem] rounded-full bg-accent/[0.06] md:block"
+            className="pointer-events-none absolute -left-24 bottom-0 hidden size-[16rem] rounded-full bg-accent/[0.06] md:block"
           />
 
-          <div className="relative z-10 mx-auto max-w-[64rem] px-6 md:px-10">
-            <Reveal>
-              <span className="hairline-accent" />
-              <p className="eyebrow mt-7">Psicoterapia individual · Online</p>
-            </Reveal>
-
-            <Reveal delay={120}>
-              <h1 className="mt-6 max-w-3xl text-[2.35rem] leading-[1.1] sm:text-5xl lg:text-[3.85rem]">
-                Um espaço para compreender você, seu corpo e sua sexualidade com mais liberdade e
-                acolhimento.
-              </h1>
-            </Reveal>
-
-            <Reveal delay={220}>
-              <p className="mt-8 max-w-xl text-[0.975rem] text-muted-foreground">
-                Psicoterapia individual para mulheres que desejam desenvolver o autoconhecimento,
-                compreender sua relação com o corpo e a sexualidade e construir uma relação mais
-                leve consigo mesmas.
-              </p>
-            </Reveal>
-
-            <Reveal delay={300}>
-              <div className="mt-12 flex flex-col gap-4 sm:flex-row sm:items-center">
-                <a
-                  href={whatsappHref()}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center rounded-full bg-primary px-8 py-4 text-xs font-medium tracking-[0.14em] uppercase text-primary-foreground transition-colors duration-300 hover:bg-primary-dark"
-                >
-                  Agendar atendimento
-                </a>
-                <a
-                  href="#sobre-mim"
-                  className="inline-flex items-center justify-center rounded-full border border-primary/40 px-8 py-4 text-xs font-medium tracking-[0.14em] uppercase text-primary-dark transition-colors duration-300 hover:border-accent hover:text-accent"
-                >
-                  Conheça meu trabalho
-                </a>
+          <div className="relative z-10 mx-auto max-w-[72rem] px-6 md:px-10">
+            <div className="grid items-start gap-10 md:gap-20 lg:grid-cols-[55fr_45fr] lg:gap-24">
+              {/* COLUNA ESQUERDA — título principal */}
+              <div className="md:pt-6 lg:pt-4">
+                <Reveal>
+                  <span className="hairline-accent" />
+                  <p className="eyebrow mt-7">Psicoterapia individual · Online</p>
+                  <h1 className="mt-6 text-[2.1rem] leading-[1.12] sm:text-4xl lg:text-[2.95rem]">
+                    Um espaço para compreender você, seu corpo e sua sexualidade com mais liberdade e
+                    acolhimento.
+                  </h1>
+                </Reveal>
               </div>
-            </Reveal>
 
-            <Reveal delay={380}>
-              <span className="hairline-accent mt-16 w-24" aria-hidden="true" />
-            </Reveal>
+              {/* COLUNA DIREITA — texto complementar + botões */}
+              <div className="lg:pt-12">
+                <Reveal delay={140}>
+                  <p className="max-w-xl text-[0.975rem] text-muted-foreground">
+                    Psicoterapia individual para mulheres que desejam desenvolver o autoconhecimento,
+                    compreender sua relação com o corpo e a sexualidade e construir uma relação mais
+                    leve consigo mesmas.
+                  </p>
+                  <div className="mt-9 flex flex-col gap-4 sm:flex-row sm:items-center">
+                    <a
+                      href={whatsappHref()}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center justify-center rounded-full bg-primary px-8 py-4 text-xs font-medium tracking-[0.14em] uppercase text-primary-foreground transition-colors duration-300 hover:bg-primary-dark"
+                    >
+                      Agendar atendimento
+                    </a>
+                    <a
+                      href="#sobre-mim"
+                      className="inline-flex items-center justify-center rounded-full border border-primary/40 px-8 py-4 text-xs font-medium tracking-[0.14em] uppercase text-primary-dark transition-colors duration-300 hover:border-accent hover:text-accent"
+                    >
+                      Conheça meu trabalho
+                    </a>
+                  </div>
+                </Reveal>
+              </div>
+            </div>
           </div>
         </section>
 
