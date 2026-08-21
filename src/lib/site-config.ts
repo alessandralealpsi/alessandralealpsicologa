@@ -24,8 +24,7 @@ export const EMAIL = "alessandraleal.psi@gmail.com";
 /** Endereço profissional — inserir quando existir (deixar null oculta a informação). */
 export const ADDRESS: string | null = null;
 
-export const whatsappHref = () =>
-  `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
+export const whatsappHref = () => "https://wa.me/message/UWR2P6GGKDDEE1";
 
 export const NAV_LINKS = [
   { label: "Início", href: "#inicio" },
