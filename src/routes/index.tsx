@@ -156,7 +156,7 @@ function Index() {
               </div>
 
               {/* COLUNA DIREITA — texto complementar + botões */}
-              <div className="lg:pt-12">
+              <div className="lg:pt-28">
                 <Reveal delay={140}>
                   <p className="max-w-xl text-[0.975rem] text-muted-foreground">
                     Psicoterapia individual para mulheres que desejam desenvolver o autoconhecimento,
