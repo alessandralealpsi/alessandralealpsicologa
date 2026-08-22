@@ -16,7 +16,7 @@ export const WHATSAPP_MESSAGE =
 export const CRP = "CRP 06/237503";
 
 /** Instagram — inserir a URL quando disponível (deixar null oculta o link). */
-export const INSTAGRAM_URL = "https://instagram.com/alessandra.lealg";
+export const INSTAGRAM_URL = "https://instagram.com/alessandraleal.psi";
 
 /** Email profissional para contato. */
 export const EMAIL = "alessandraleal.psi@gmail.com";
