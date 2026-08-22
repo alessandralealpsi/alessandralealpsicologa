@@ -7,10 +7,7 @@ import { WhatsAppFloat } from "@/components/site/WhatsAppFloat";
 import { Reveal } from "@/components/site/Reveal";
 import { whatsappHref } from "@/lib/site-config";
 
-import heroAsset from "@/assets/alessandra-hero.jpg.asset.json";
-
-
-const sobrePhoto = heroAsset.url;
+import sobrePhoto from "@/assets/foto-principal.jpeg";
 
 
 
