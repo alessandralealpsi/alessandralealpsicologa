@@ -84,13 +84,13 @@ const FUNCIONAMENTO = [
     icon: CalendarDays,
     label: "Frequência",
     value: "Semanal",
-    text: "As sessões costumam ocorrer com frequência semanal, garantindo o ritmo e a evolução necessários para o processo terapêutico. A frequência pode ser reavaliada ao longo do acompanhamento conforme a necessidade do caso.",
+    text: "As sessões costumam ocorrer com frequência semanal, garantindo o ritmo e a evolução necessários para o processo terapêutico.",
   },
   {
     icon: Monitor,
     label: "Formato",
-    value: "Online",
-    text: "Atendimentos em formato online, em ambiente reservado, ético e em conformidade com as diretrizes do Conselho Federal de Psicologia (CFP).",
+    value: "Atendimento online ou presencial em São Paulo/SP.",
+    text: "Os atendimentos são realizados em formato online ou presencial, em São Paulo/SP, em ambiente reservado, ético e em conformidade com as diretrizes do Conselho Federal de Psicologia (CFP).",
   },
 ];
 
@@ -105,7 +105,7 @@ const ETAPAS = [
     n: "02",
     label: "Primeira sessão",
     sub: "Nosso primeiro encontro",
-    text: "Agendamos o nosso primeiro encontro online. Nessa sessão inicial, teremos um espaço de escuta para entender suas demandas, alinhar expectativas e estabelecer o contrato terapêutico.",
+    text: "Agendamos o nosso primeiro encontro online ou presencial. Nessa sessão inicial, teremos um espaço de escuta para entender suas demandas, alinhar expectativas e estabelecer o contrato terapêutico.",
   },
   {
     n: "03",
