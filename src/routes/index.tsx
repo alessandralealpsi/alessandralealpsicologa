@@ -140,7 +140,7 @@ function Index() {
               <div className="md:pt-6 lg:pt-4">
                 <Reveal>
                   <span className="hairline-accent" />
-                  <p className="eyebrow mt-7">Psicoterapia individual · Online</p>
+                  <p className="eyebrow mt-7">Psicoterapia individual · Online e presencial</p>
                   <h1 className="mt-6 text-[2.1rem] leading-[1.12] sm:text-4xl lg:text-[2.95rem]">
                     Um espaço para compreender você, seu corpo e sua sexualidade com mais liberdade e
                     acolhimento.
