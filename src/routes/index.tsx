@@ -89,7 +89,7 @@ const FUNCIONAMENTO = [
   {
     icon: Monitor,
     label: "Formato",
-    value: "Online ou presencial em São Paulo/SP",
+    value: "Atendimento online ou presencial em São Paulo/SP.",
     text: "Os atendimentos são realizados em formato online ou presencial, em São Paulo/SP, em ambiente reservado, ético e em conformidade com as diretrizes do Conselho Federal de Psicologia (CFP).",
   },
 ];
